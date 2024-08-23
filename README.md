@@ -1,6 +1,8 @@
 # QuickScope
 A simple python script to generate a scope list :)
 
+# TLDR
+There are plenty of fantastic scope generating tools out there already, but what makes this so special? Well... it's made to handle them funky ranges >:). For example, if you're given a scope and a /20 is too granular (including IPs that are out of scope) but a /21 doesn't include the range you need. Well, this is the scoping tool for you!
 # Help
 ```
 Generate a list of IP addresses in a given range and save it to a text file.
