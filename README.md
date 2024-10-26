@@ -10,9 +10,9 @@ Generate a list of IP addresses in a given range and save it to a text file.
 optional arguments:
   -h, --help            show this help message and exit
   -s START_IP, --start-ip START_IP
-                        The starting IP address of the range. (default: None)
+                        The starting IP address of the range. (10.0.0.1)
   -e END_IP, --end-ip END_IP
-                        The ending IP address of the range. (default: None)
+                        The ending IP address of the range. (10.0.0.254)
   -o OUTPUT, --output OUTPUT
                         The output text file where the IP list will be saved.
                         (default: ip_list.txt)
